@@ -1,0 +1,14 @@
+[project]
+name = "obd-live-data"
+version = "0.1.0"
+description = "CLI tool to reverse engineer the BlueDriver OBD-II port scanner."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "bleak>=3.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.13",
+]
